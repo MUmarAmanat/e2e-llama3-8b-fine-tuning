@@ -1,0 +1,6 @@
+accelerate
+bitsandbytes
+s3fs
+transformers
+peft
+datasets
