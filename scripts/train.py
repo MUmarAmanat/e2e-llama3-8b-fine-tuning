@@ -92,9 +92,6 @@ if __name__ == "__main__":
 
     HfFolder.save_token('')  ## Make sure to use your own hf_api_token
     
-    # from huggingface_hub.hf_api import HfFolder
-    # HfFolder.save_token('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')
-    
     model_name = args.model_name
     lora_config = LoraConfig(r=32, #rank 32,
                          lora_alpha=32, ## LoRA Scaling factor 
